@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="BSC Portal Record Producer">82ebc2cf97d26110cc7dbfb6f053af57</sc_cat_item>
+        <sc_catalog display_value="Finance">5ea769f197522110cc7dbfb6f053afb3</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-24 02:52:47</sys_created_on>
+        <sys_id>4f739603979a6110cc7dbfb6f053afd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Finance.BSC Portal Record Producer</sys_name>
+        <sys_package display_value="BSC Demo" source="x_969704_bsc_demo">5a46ce43979e2110cc7dbfb6f053af82</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BSC Demo">5a46ce43979e2110cc7dbfb6f053af82</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_4f739603979a6110cc7dbfb6f053afd1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-24 02:52:47</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BSC Demo">5a46ce43979e2110cc7dbfb6f053af82</application>
+        <file_path/>
+        <instance_id>297f174edb83e450431011f84896197f</instance_id>
+        <instance_name>dev108304</instance_name>
+        <name>sc_cat_item_catalog_4f739603979a6110cc7dbfb6f053afd1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="BSC Portal Record Producer">82ebc2cf97d26110cc7dbfb6f053af57</sc_cat_item><sc_catalog display_value="Finance">5ea769f197522110cc7dbfb6f053afb3</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-24 02:52:47</sys_created_on><sys_id>4f739603979a6110cc7dbfb6f053afd1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Finance.BSC Portal Record Producer</sys_name><sys_package display_value="BSC Demo" source="x_969704_bsc_demo">5a46ce43979e2110cc7dbfb6f053af82</sys_package><sys_policy/><sys_scope display_value="BSC Demo">5a46ce43979e2110cc7dbfb6f053af82</sys_scope><sys_update_name>sc_cat_item_catalog_4f739603979a6110cc7dbfb6f053afd1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-24 02:52:47</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>1889058794</payload_hash>
+        <record_name>Finance.BSC Portal Record Producer</record_name>
+        <reverted_from/>
+        <source>9cbb8e8f97d26110cc7dbfb6f053afb4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-24 02:52:47</sys_created_on>
+        <sys_id>0f739603979a6110cc7dbfb6f053afd8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187b12d97780000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-24 02:52:47</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>47739603899a6110c55fcfe3b100b0d8</update_guid>
+        <update_guid_history>47739603899a6110c55fcfe3b100b0d8:1889058794</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Finance.BSC Portal Record Producer">2704d643979a6110cc7dbfb6f053afd5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-24 02:55:16</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>41d63e4c14ec4396912bfdf56c65c944</sys_id>
+        <sys_metadata>4f739603979a6110cc7dbfb6f053afd1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Finance.BSC Portal Record Producer</sys_name>
+        <sys_package display_value="BSC Demo" source="x_969704_bsc_demo">5a46ce43979e2110cc7dbfb6f053af82</sys_package>
+        <sys_parent display_value="BSC Portal Record Producer">82ebc2cf97d26110cc7dbfb6f053af57</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BSC Demo">5a46ce43979e2110cc7dbfb6f053af82</sys_scope>
+        <sys_scope_delete display_value="">0d17728489044ee081db629c3fcb7040</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_4f739603979a6110cc7dbfb6f053afd1</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_4f739603979a6110cc7dbfb6f053afd1">0f739603979a6110cc7dbfb6f053afd8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-24 02:55:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
