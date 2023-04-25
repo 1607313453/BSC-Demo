@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="bsc_status" table="x_969704_bsc_demo_bsc_demo" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>bsc_status</element>
+            <name>x_969704_bsc_demo_bsc_demo</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-25 03:14:10</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>bsc_status</sys_name>
+            <sys_package display_value="BSC Demo" source="x_969704_bsc_demo">5a46ce43979e2110cc7dbfb6f053af82</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BSC Demo">5a46ce43979e2110cc7dbfb6f053af82</sys_scope>
+            <sys_update_name>sys_choice_x_969704_bsc_demo_bsc_demo_bsc_status</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-25 03:14:10</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>bsc_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Initial Approval</label>
+            <language>en</language>
+            <name>x_969704_bsc_demo_bsc_demo</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-25 03:14:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>963f9b5b97522110cc7dbfb6f053af42</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-25 06:03:13</sys_updated_on>
+            <value>initial_approval</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>bsc_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Initial Approval (re)</label>
+            <language>en</language>
+            <name>x_969704_bsc_demo_bsc_demo</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-25 03:16:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b9f12fdb97522110cc7dbfb6f053afdf</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-25 06:03:16</sys_updated_on>
+            <value>initial_approval_re</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>bsc_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Update contract status</label>
+            <language>en</language>
+            <name>x_969704_bsc_demo_bsc_demo</name>
+            <sequence>15</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-25 03:18:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1a82231f97522110cc7dbfb6f053afed</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-25 06:03:29</sys_updated_on>
+            <value>upd_contract_status</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>bsc_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Update HQ status</label>
+            <language>en</language>
+            <name>x_969704_bsc_demo_bsc_demo</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-25 03:19:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>73f2ef9f97522110cc7dbfb6f053af77</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-25 06:03:40</sys_updated_on>
+            <value>upd_hq_status</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>bsc_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HQ return reason</label>
+            <language>en</language>
+            <name>x_969704_bsc_demo_bsc_demo</name>
+            <sequence>25</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-25 03:33:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4b1327df97522110cc7dbfb6f053af57</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-25 06:03:43</sys_updated_on>
+            <value>hq_return_reason</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
