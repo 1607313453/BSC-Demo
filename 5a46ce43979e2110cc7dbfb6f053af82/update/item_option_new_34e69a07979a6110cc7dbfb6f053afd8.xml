@@ -53,7 +53,7 @@
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
         <record_producer_table>x_969704_bsc_demo_bsc_demo</record_producer_table>
-        <reference>x_969704_g_demo_demo</reference>
+        <reference>x_969704_bsc_demo_common_region_branch</reference>
         <reference_qual>javascript:"region=" + current.variables.region.getDisplayValue();</reference_qual>
         <reference_qual_condition/>
         <rich_text/>
@@ -75,14 +75,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-04-24 03:12:47</sys_created_on>
         <sys_id>34e69a07979a6110cc7dbfb6f053afd8</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name>分公司</sys_name>
         <sys_package display_value="BSC Demo" source="x_969704_bsc_demo">5a46ce43979e2110cc7dbfb6f053af82</sys_package>
         <sys_policy/>
         <sys_scope display_value="BSC Demo">5a46ce43979e2110cc7dbfb6f053af82</sys_scope>
         <sys_update_name>item_option_new_34e69a07979a6110cc7dbfb6f053afd8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-24 08:07:54</sys_updated_on>
+        <sys_updated_on>2023-04-25 02:51:24</sys_updated_on>
         <table/>
         <tooltip/>
         <type>8</type>
