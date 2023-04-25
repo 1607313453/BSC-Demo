@@ -1,3 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="426ac64f97d26110cc7dbfb6f053af47" extends="task" label="BSC Demo" max_length="40" name="x_969704_bsc_demo_bsc_demo" type="collection"/>
+    <element db_object_id="426ac64f97d26110cc7dbfb6f053af47" extends="task" label="BSC Demo" max_length="40" name="x_969704_bsc_demo_bsc_demo" type="collection">
+        <element label="BSC Stage" max_length="80" name="bsc_stage" type="workflow"/>
+        <element choice="1" label="BSC Status" max_length="40" name="bsc_status" type="choice">
+            <choice/>
+        </element>
+    </element>
 </database>
