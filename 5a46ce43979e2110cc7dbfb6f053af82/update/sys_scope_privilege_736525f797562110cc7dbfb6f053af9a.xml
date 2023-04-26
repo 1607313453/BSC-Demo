@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>read</operation>
+        <source_scope display_value="BSC Demo">5a46ce43979e2110cc7dbfb6f053af82</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-26 07:27:02</sys_created_on>
+        <sys_id>736525f797562110cc7dbfb6f053af9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>question_answer</sys_name>
+        <sys_package display_value="BSC Demo" source="x_969704_bsc_demo">5a46ce43979e2110cc7dbfb6f053af82</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BSC Demo">5a46ce43979e2110cc7dbfb6f053af82</sys_scope>
+        <sys_update_name>sys_scope_privilege_736525f797562110cc7dbfb6f053af9a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-26 07:27:02</sys_updated_on>
+        <target_name>question_answer</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+</record_update>
