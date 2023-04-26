@@ -6,7 +6,7 @@
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <catalog_conditions>IO:ea37ab5b97522110cc7dbfb6f053af52&gt;=javascript:gs.beginningOfToday()^EQ</catalog_conditions>
+        <catalog_conditions>IO:16e78c6f97d22110cc7dbfb6f053af39!=initial_approval_re^EQ</catalog_conditions>
         <catalog_item display_value="BSC Portal Record Producer">82ebc2cf97d26110cc7dbfb6f053af57</catalog_item>
         <conditions/>
         <description/>
@@ -16,34 +16,34 @@
         <model_id/>
         <model_table/>
         <on_load>true</on_load>
-        <order>10</order>
+        <order>20</order>
         <reverse_if_false>true</reverse_if_false>
-        <run_scripts>true</run_scripts>
+        <run_scripts>false</run_scripts>
         <script_false><![CDATA[function onCondition() {
 
 }]]></script_false>
         <script_true><![CDATA[function onCondition() {
-	g_form.addErrorMessage("不可以填写未来时间!");
+
 }]]></script_true>
         <set_values/>
-        <short_description>Can't choose future date</short_description>
+        <short_description>Hide field when initial approval</short_description>
         <sys_class_name>catalog_ui_policy</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-04-25 04:00:57</sys_created_on>
+        <sys_created_on>2023-04-26 08:37:35</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>992a239797922110cc7dbfb6f053af58</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Can't choose future date</sys_name>
+        <sys_id>e825b1bb97962110cc7dbfb6f053af82</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Hide field when initial approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="BSC Demo" source="x_969704_bsc_demo">5a46ce43979e2110cc7dbfb6f053af82</sys_package>
         <sys_policy/>
         <sys_scope display_value="BSC Demo">5a46ce43979e2110cc7dbfb6f053af82</sys_scope>
-        <sys_update_name>catalog_ui_policy_992a239797922110cc7dbfb6f053af58</sys_update_name>
+        <sys_update_name>catalog_ui_policy_e825b1bb97962110cc7dbfb6f053af82</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-26 08:43:15</sys_updated_on>
+        <sys_updated_on>2023-04-26 08:43:18</sys_updated_on>
         <table/>
-        <ui_type>10</ui_type>
+        <ui_type>0</ui_type>
         <variable_set/>
         <view/>
     </catalog_ui_policy>
