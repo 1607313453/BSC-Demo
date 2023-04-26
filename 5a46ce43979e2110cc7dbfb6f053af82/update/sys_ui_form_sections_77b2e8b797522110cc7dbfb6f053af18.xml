@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="77b2e8b797522110cc7dbfb6f053af18" sys_domain="global" table="x_969704_bsc_demo_bsc_demo" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-26 02:35:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>84c2e8b797522110cc7dbfb6f053af1b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_969704_bsc_demo_bsc_demo" name="x_969704_bsc_demo_bsc_demo" sys_domain="global" view="Default view">77b2e8b797522110cc7dbfb6f053af18</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_969704_bsc_demo_bsc_demo" sys_domain="global" view="Default view">f8e9e4a397962110cc7dbfb6f053af04</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-26 02:35:41</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-26 02:35:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>80c2e8b797522110cc7dbfb6f053af1c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_969704_bsc_demo_bsc_demo" name="x_969704_bsc_demo_bsc_demo" sys_domain="global" view="Default view">77b2e8b797522110cc7dbfb6f053af18</sys_ui_form>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_969704_bsc_demo_bsc_demo" sys_domain="global" view="Default view">7bb2e8b797522110cc7dbfb6f053af16</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-26 02:35:41</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-26 02:42:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9264e43b97522110cc7dbfb6f053afb3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_969704_bsc_demo_bsc_demo" name="x_969704_bsc_demo_bsc_demo" sys_domain="global" view="Default view">77b2e8b797522110cc7dbfb6f053af18</sys_ui_form>
+            <sys_ui_section caption="Activities" display_value="Activities" name="x_969704_bsc_demo_bsc_demo" sys_domain="global" view="Default view">0264e43b97522110cc7dbfb6f053afb0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-26 02:42:56</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_969704_bsc_demo_bsc_demo</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-26 02:35:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>77b2e8b797522110cc7dbfb6f053af18</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_969704_bsc_demo_bsc_demo</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="BSC Demo" source="x_969704_bsc_demo">5a46ce43979e2110cc7dbfb6f053af82</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BSC Demo">5a46ce43979e2110cc7dbfb6f053af82</sys_scope>
+            <sys_update_name>sys_ui_form_sections_77b2e8b797522110cc7dbfb6f053af18</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-26 02:35:41</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

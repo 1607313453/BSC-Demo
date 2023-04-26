@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_formatter">
+    <sys_ui_formatter action="DELETE">
+        <active>true</active>
+        <angular_module/>
+        <formatter>bsc_portal_request_details</formatter>
+        <name>BSC Variables Editor</name>
+        <seismic_component/>
+        <sys_class_name>sys_ui_formatter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-26 03:06:19</sys_created_on>
+        <sys_id>74c9ec3f97522110cc7dbfb6f053af6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BSC Variables Editor</sys_name>
+        <sys_package display_value="BSC Demo" source="x_969704_bsc_demo">5a46ce43979e2110cc7dbfb6f053af82</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BSC Demo">5a46ce43979e2110cc7dbfb6f053af82</sys_scope>
+        <sys_update_name>sys_ui_formatter_74c9ec3f97522110cc7dbfb6f053af6f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-26 03:06:19</sys_updated_on>
+        <table>x_969704_bsc_demo_bsc_demo</table>
+        <type>formatter</type>
+    </sys_ui_formatter>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BSC Demo">5a46ce43979e2110cc7dbfb6f053af82</application>
+        <file_path/>
+        <instance_id>297f174edb83e450431011f84896197f</instance_id>
+        <instance_name>dev108304</instance_name>
+        <name>sys_ui_formatter_74c9ec3f97522110cc7dbfb6f053af6f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_formatter"><sys_ui_formatter action="INSERT_OR_UPDATE"><active>true</active><angular_module/><formatter>bsc_portal_request_details</formatter><name>BSC Variables Editor</name><seismic_component/><sys_class_name>sys_ui_formatter</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-26 03:06:19</sys_created_on><sys_id>74c9ec3f97522110cc7dbfb6f053af6f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>BSC Variables Editor</sys_name><sys_package display_value="BSC Demo" source="x_969704_bsc_demo">5a46ce43979e2110cc7dbfb6f053af82</sys_package><sys_policy/><sys_scope display_value="BSC Demo">5a46ce43979e2110cc7dbfb6f053af82</sys_scope><sys_update_name>sys_ui_formatter_74c9ec3f97522110cc7dbfb6f053af6f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-26 03:06:19</sys_updated_on><table>x_969704_bsc_demo_bsc_demo</table><type>formatter</type></sys_ui_formatter></record_update>]]></payload>
+        <payload_hash>-816684178</payload_hash>
+        <record_name>BSC Variables Editor</record_name>
+        <reverted_from/>
+        <source>529a8a4f97d26110cc7dbfb6f053af21</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-26 03:06:19</sys_created_on>
+        <sys_id>7cc9ec3f97522110cc7dbfb6f053af70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187bb86b3670000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-26 03:06:19</sys_updated_on>
+        <type>UI Formatter</type>
+        <update_guid>b4c9ec3f20522110bdaf88a19f57ec70</update_guid>
+        <update_guid_history>b4c9ec3f20522110bdaf88a19f57ec70:-816684178</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-26 03:07:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_formatter">sys_ui_formatter</sys_db_object>
+        <sys_id>11ee6e78a564451f818297e827aeeb71</sys_id>
+        <sys_metadata>74c9ec3f97522110cc7dbfb6f053af6f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BSC Variables Editor</sys_name>
+        <sys_package display_value="BSC Demo" source="x_969704_bsc_demo">5a46ce43979e2110cc7dbfb6f053af82</sys_package>
+        <sys_parent display_value="BSC Demo">426ac64f97d26110cc7dbfb6f053af47</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BSC Demo">5a46ce43979e2110cc7dbfb6f053af82</sys_scope>
+        <sys_scope_delete display_value="">0d17728489044ee081db629c3fcb7040</sys_scope_delete>
+        <sys_update_name>sys_ui_formatter_74c9ec3f97522110cc7dbfb6f053af6f</sys_update_name>
+        <sys_update_version display_value="sys_ui_formatter_74c9ec3f97522110cc7dbfb6f053af6f">7cc9ec3f97522110cc7dbfb6f053af70</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-26 03:07:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

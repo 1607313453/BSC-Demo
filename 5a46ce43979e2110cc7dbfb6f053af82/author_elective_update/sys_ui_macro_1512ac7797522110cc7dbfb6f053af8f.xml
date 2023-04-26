@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="DELETE">
+        <active>true</active>
+        <category>general</category>
+        <description>BSC portal request details</description>
+        <media_type/>
+        <name>bsc_portal_request_details</name>
+        <scoped_name>x_969704_bsc_demo_bsc_portal_request_details</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-26 02:33:21</sys_created_on>
+        <sys_id>1512ac7797522110cc7dbfb6f053af8f</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>bsc_portal_request_details</sys_name>
+        <sys_package display_value="BSC Demo" source="x_969704_bsc_demo">5a46ce43979e2110cc7dbfb6f053af82</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BSC Demo">5a46ce43979e2110cc7dbfb6f053af82</sys_scope>
+        <sys_update_name>sys_ui_macro_1512ac7797522110cc7dbfb6f053af8f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-26 02:59:51</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+    <g:requires name="scripts/js_includes_catalog.js" includes="true"/>
+    <g:requires name="styles/${new CatalogCssSelector().getVariableCss()}" includes="true"/>
+    <g2:evaluate var="jvar_catalog_item">
+       function eval_cat_item() {
+        var cat_item = "";
+		var className = current.getRecordClassName();
+		var catItemProducedGr = new GlideRecord("sc_item_produced_record");
+		if (className == "x_969704_bsc_demo_bsc_demo") {
+		  catItemProducedGr.addQuery("task", current.sys_id);
+		} else if (className == "x_969704_bsc_demo_bsc_demo") {
+          catItemProducedGr.addQuery("task", current.parent.sys_id);
+		}
+		catItemProducedGr.query();
+		if (catItemProducedGr.next()) {
+          cat_item = catItemProducedGr.getValue("producer");
+          return cat_item;
+		}
+       }
+       eval_cat_item();
+    </g2:evaluate>
+	
+	<!-- load only the one_to_one variable sets -->
+    <g2:evaluate var="jvar_cat_sets" jelly="true">
+       var jvar_cat_sets = "";
+       var gr = new GlideRecord("io_set_item");
+       gr.addQuery("sc_cat_item", jelly.jvar_catalog_item);
+	   gr.addQuery("variable_set.type", "one_to_one");
+       gr.query();
+       while (gr.next()) {
+          if (jvar_cat_sets.length > 0)
+             jvar_cat_sets += ",";
+          jvar_cat_sets += gr.variable_set;
+       }
+       jvar_cat_sets;
+    </g2:evaluate>
+	
+	<g2:evaluate var="jvar_questionset_read_only" jelly="true">
+		!current.canWrite();
+	</g2:evaluate>
+ 
+	<div data-sn-macro-sys-id="${jvar_macro_sys_id}">
+		<j2:if test="$[jvar_catalog_item != '']">
+			<j2:set var="jvar_producer_target_record" value="true"/>
+			<g2:client_script type="catalog_question_editor" catalogItem="$[jvar_catalog_item]"/>
+			<g:inline template="catalog_ui_policy.xml"/>
+			<g2:render_component componentName="com.glideapp.servicecatalog.DefaultQuestionEditor"/>
+		</j2:if>
+		<j2:if test="$[jvar_catalog_item == '']">
+			<!--Render old default editor if catalog item is not found -->
+			<g2:render_component componentName="com.glideapp.questionset.DefaultQuestionEditor"/>
+		</j2:if>
+	</div>
+</j:jelly>
+]]></xml>
+    </sys_ui_macro>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BSC Demo">5a46ce43979e2110cc7dbfb6f053af82</application>
+        <file_path/>
+        <instance_id>297f174edb83e450431011f84896197f</instance_id>
+        <instance_name>dev108304</instance_name>
+        <name>sys_ui_macro_1512ac7797522110cc7dbfb6f053af8f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_macro"&gt;&lt;sys_ui_macro action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;category&gt;general&lt;/category&gt;&lt;description&gt;BSC portal request details&lt;/description&gt;&lt;media_type/&gt;&lt;name&gt;bsc_portal_request_details&lt;/name&gt;&lt;scoped_name&gt;x_969704_bsc_demo_bsc_portal_request_details&lt;/scoped_name&gt;&lt;sys_class_name&gt;sys_ui_macro&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-26 02:33:21&lt;/sys_created_on&gt;&lt;sys_id&gt;1512ac7797522110cc7dbfb6f053af8f&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;bsc_portal_request_details&lt;/sys_name&gt;&lt;sys_package display_value="BSC Demo" source="x_969704_bsc_demo"&gt;5a46ce43979e2110cc7dbfb6f053af82&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="BSC Demo"&gt;5a46ce43979e2110cc7dbfb6f053af82&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_macro_1512ac7797522110cc7dbfb6f053af8f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-04-26 02:59:51&lt;/sys_updated_on&gt;&lt;xml&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+    &lt;g:requires name="scripts/js_includes_catalog.js" includes="true"/&gt;
+    &lt;g:requires name="styles/${new CatalogCssSelector().getVariableCss()}" includes="true"/&gt;
+    &lt;g2:evaluate var="jvar_catalog_item"&gt;
+       function eval_cat_item() {
+        var cat_item = "";
+		var className = current.getRecordClassName();
+		var catItemProducedGr = new GlideRecord("sc_item_produced_record");
+		if (className == "x_969704_bsc_demo_bsc_demo") {
+		  catItemProducedGr.addQuery("task", current.sys_id);
+		} else if (className == "x_969704_bsc_demo_bsc_demo") {
+          catItemProducedGr.addQuery("task", current.parent.sys_id);
+		}
+		catItemProducedGr.query();
+		if (catItemProducedGr.next()) {
+          cat_item = catItemProducedGr.getValue("producer");
+          return cat_item;
+		}
+       }
+       eval_cat_item();
+    &lt;/g2:evaluate&gt;
+	
+	&lt;!-- load only the one_to_one variable sets --&gt;
+    &lt;g2:evaluate var="jvar_cat_sets" jelly="true"&gt;
+       var jvar_cat_sets = "";
+       var gr = new GlideRecord("io_set_item");
+       gr.addQuery("sc_cat_item", jelly.jvar_catalog_item);
+	   gr.addQuery("variable_set.type", "one_to_one");
+       gr.query();
+       while (gr.next()) {
+          if (jvar_cat_sets.length &gt; 0)
+             jvar_cat_sets += ",";
+          jvar_cat_sets += gr.variable_set;
+       }
+       jvar_cat_sets;
+    &lt;/g2:evaluate&gt;
+	
+	&lt;g2:evaluate var="jvar_questionset_read_only" jelly="true"&gt;
+		!current.canWrite();
+	&lt;/g2:evaluate&gt;
+ 
+	&lt;div data-sn-macro-sys-id="${jvar_macro_sys_id}"&gt;
+		&lt;j2:if test="$[jvar_catalog_item != '']"&gt;
+			&lt;j2:set var="jvar_producer_target_record" value="true"/&gt;
+			&lt;g2:client_script type="catalog_question_editor" catalogItem="$[jvar_catalog_item]"/&gt;
+			&lt;g:inline template="catalog_ui_policy.xml"/&gt;
+			&lt;g2:render_component componentName="com.glideapp.servicecatalog.DefaultQuestionEditor"/&gt;
+		&lt;/j2:if&gt;
+		&lt;j2:if test="$[jvar_catalog_item == '']"&gt;
+			&lt;!--Render old default editor if catalog item is not found --&gt;
+			&lt;g2:render_component componentName="com.glideapp.questionset.DefaultQuestionEditor"/&gt;
+		&lt;/j2:if&gt;
+	&lt;/div&gt;
+&lt;/j:jelly&gt;
+]]&gt;&lt;/xml&gt;&lt;/sys_ui_macro&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1208262036</payload_hash>
+        <record_name>bsc_portal_request_details</record_name>
+        <reverted_from/>
+        <source>529a8a4f97d26110cc7dbfb6f053af21</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-26 02:59:51</sys_created_on>
+        <sys_id>4648643f97522110cc7dbfb6f053af97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187bb80c7170000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-26 02:59:51</sys_updated_on>
+        <type>Macro</type>
+        <update_guid>4e48643fb1522110ad77be3b21b1a996</update_guid>
+        <update_guid_history>4e48643fb1522110ad77be3b21b1a996:1208262036,721828fbd5522110dd7d14535e2d4ad9:-1815040378,c8b768fb60522110e56745991a34fe35:1208262036,ed27ecbb025221105a5b98363bb738bb:1863613589,b135247b7b52211036397ad0de79fc39:1208262036,80f364f71f522110077abedaac8c10a3:15958401,3c92a0b7c6522110da314d9bba6c58ef:1208262036,7932a073be5221107dbe00bc0da434a3:-713155314</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-26 03:05:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_macro">sys_ui_macro</sys_db_object>
+        <sys_id>0749775a6d9543358328f3b4fbba5599</sys_id>
+        <sys_metadata>1512ac7797522110cc7dbfb6f053af8f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>bsc_portal_request_details</sys_name>
+        <sys_package display_value="BSC Demo" source="x_969704_bsc_demo">5a46ce43979e2110cc7dbfb6f053af82</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BSC Demo">5a46ce43979e2110cc7dbfb6f053af82</sys_scope>
+        <sys_scope_delete display_value="">0d17728489044ee081db629c3fcb7040</sys_scope_delete>
+        <sys_update_name>sys_ui_macro_1512ac7797522110cc7dbfb6f053af8f</sys_update_name>
+        <sys_update_version display_value="sys_ui_macro_1512ac7797522110cc7dbfb6f053af8f">4648643f97522110cc7dbfb6f053af97</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-26 03:05:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
