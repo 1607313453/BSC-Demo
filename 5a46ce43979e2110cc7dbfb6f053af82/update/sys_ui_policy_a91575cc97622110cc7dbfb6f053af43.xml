@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_969704_bsc_demo_bsc_demo">bsc_status!=initial_approval_re^initial_approval_re_fieldISEMPTY^EQ<item display_value="Initial Approval (re)" endquery="false" field="bsc_status" goto="false" newquery="false" operator="!=" or="false" value="initial_approval_re"/>
+            <item endquery="false" field="initial_approval_re_field" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Hide field when initial approval - PL</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-27 03:15:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a91575cc97622110cc7dbfb6f053af43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hide field when initial approval - PL</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BSC Demo" source="x_969704_bsc_demo">5a46ce43979e2110cc7dbfb6f053af82</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BSC Demo">5a46ce43979e2110cc7dbfb6f053af82</sys_scope>
+        <sys_update_name>sys_ui_policy_a91575cc97622110cc7dbfb6f053af43</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-27 03:15:49</sys_updated_on>
+        <table>x_969704_bsc_demo_bsc_demo</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

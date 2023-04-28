@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="426ac64f97d26110cc7dbfb6f053af47" extends="task" label="BSC Demo" max_length="40" name="x_969704_bsc_demo_bsc_demo" type="collection">
+        <element label="Apply Request Date" max_length="40" name="apply_request_date" type="glide_date"/>
+        <element label="Branch" max_length="32" name="branch" reference="x_969704_bsc_demo_common_region_branch" reference_qual="javascript:&quot;region=&quot; + current.region.getDisplayValue();" type="reference" use_reference_qualifier="advanced"/>
         <element label="BSC Stage" max_length="80" name="bsc_stage" type="workflow"/>
         <element choice="1" label="BSC Status" max_length="40" name="bsc_status" type="choice">
             <choice>
@@ -10,5 +12,11 @@
                 <element inactive_on_update="false" label="HQ return reason" sequence="25" value="hq_return_reason"/>
             </choice>
         </element>
+        <element label="Submitter" max_length="32" name="current_opt_user" reference="sys_user" type="reference"/>
+        <element label="Initial Approval Field" max_length="40" name="initial_approval_field" type="string"/>
+        <element label="Initial Re-Approval" max_length="40" name="initial_approval_re_field" type="string"/>
+        <element label="Region" max_length="32" name="region" reference="x_969704_bsc_demo_common_region_branch" reference_qual="identity=region^EQ" reference_qual_condition="identity=region^EQ" type="reference"/>
+        <element label="Update Contract Status" max_length="40" name="upd_contract_status_field" type="string"/>
+        <element label="Update HQ Status" max_length="40" name="upd_hq_status_field" type="string"/>
     </element>
 </database>
